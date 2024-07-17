@@ -1,27 +1,6 @@
 <html>
 
-    <div id="create">create video</div>
+    <div id="create">Chat Only</div>
     <script data-chat-entry-id="HlROBFPbQee1rDYcuVxhfw" data-env="us01" data-apikey="EoneHh9XQsWgYy-jocLO0Q" src="https://us01ccistatic.zoom.us/us01cci/web-sdk/chat-client.js"></script> 
-    <script>
-      (() => {
-        const dom = document.getElementById('create')
-        dom.addEventListener('click', async () => {
-          const entryId = HlROBFPbQee1rDYcuVxhfw /* Get from the code copied from
-                                          your flow */
-          const videoClient = new VideoClient({
-          });
-          await videoClient.init({
-            HlROBFPbQee1rDYcuVxhfw,
-            name: 'Webchat' /* optional field, omit if not using, null value
-                        not accepted */
-          });
-          videoClient.startVideo()
-          videoClient.on('video-end', () => {
-            console.log('video ended') /* Add any actions to perform when the
-                                        video ends, for example, print to
-                                        console log */
-          })
-        })
-      })()
-    </script>
+
 </html>
