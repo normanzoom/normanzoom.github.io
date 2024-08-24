@@ -9,7 +9,7 @@ body {
 header {
     text-align: center;
     padding: 50px 20px;
-    background: url('milkyway.png') no-repeat center center/cover;
+    background: url('https://normanzoom.github.io/milkyway.png') no-repeat center center/cover;
 }
 
 header h1 {
