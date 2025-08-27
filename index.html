@@ -1,8 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-   <script data-apikey="EoneHh9XQsWgYy-jocLO0Q" data-env="us01" src="https://us01ccistatic.zoom.us/us01cci/web-sdk/chat-client.js"></script>
+<script data-apikey="EoneHh9XQsWgYy-jocLO0Q" data-env="us01" src="https://us01ccistatic.zoom.us/us01cci/web-sdk/zcc-sdk.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Communications - Connecting the World</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-    <div>Chat Only</div>
+<body>
 
+    <header>
+        <div class="container">
+            <h1>Zoom Communications</h1>
+            <nav>
+                <a href="#features">Features</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <img src="images/zoom-logo.png" alt="Zoom Logo" width="200">
+            <h2>Seamless Communication, Wherever You Are.</h2>
+            <p>Zoom Communications provides innovative video conferencing and collaboration solutions for businesses and individuals.</p>
+            <a href="#features" class="button">Explore Our Features</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <img src="images/video-call.png" alt="Video Call" width="150">
+                    <h3>High-Quality Video & Audio</h3>
+                    <p>Experience crystal-clear video and audio for productive meetings.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/screen-share.png" alt="Screen Sharing" width="150">
+                    <h3>Screen Sharing</h3>
+                    <p>Share your screen seamlessly and collaborate in real-time.</p>
+                </div>
+                <div class="feature">
+                    <img src="images/group-call.png" alt="Group Calls" width="150">
+                    <h3>Group Calls</h3>
+                    <p>Connect with multiple participants in a single meeting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Zoom Communications. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
